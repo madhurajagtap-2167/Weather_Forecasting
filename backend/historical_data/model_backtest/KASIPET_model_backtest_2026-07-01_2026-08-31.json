@@ -1,0 +1,160 @@
+{
+  "site": "KASIPET",
+  "start": "2026-07-01",
+  "end": "2026-08-31",
+  "generated_at": "2026-09-14T20:53:06.458011",
+  "models": {
+    "ecmwf": {
+      "openmeteo_model_id": "ecmwf_ifs025",
+      "irradiance": {
+        "mae": 19.36,
+        "rmse": 39.98,
+        "mape": 14.49,
+        "accuracy_pct": 85.51,
+        "n": 1488
+      },
+      "temperature": {
+        "mae": 0.42,
+        "rmse": 0.56,
+        "mape": 1.55,
+        "accuracy_pct": 98.45,
+        "n": 1488
+      },
+      "combined_accuracy_pct": 89.39
+    },
+    "gfs": {
+      "openmeteo_model_id": "gfs_seamless",
+      "irradiance": {
+        "mae": 69.13,
+        "rmse": 136.31,
+        "mape": 45.78,
+        "accuracy_pct": 54.22,
+        "n": 1488
+      },
+      "temperature": {
+        "mae": 1.15,
+        "rmse": 1.51,
+        "mape": 4.08,
+        "accuracy_pct": 95.92,
+        "n": 1488
+      },
+      "combined_accuracy_pct": 66.73
+    },
+    "icon": {
+      "openmeteo_model_id": "icon_seamless",
+      "irradiance": {
+        "mae": 56.44,
+        "rmse": 110.35,
+        "mape": 33.8,
+        "accuracy_pct": 66.2,
+        "n": 1488
+      },
+      "temperature": {
+        "mae": 1.24,
+        "rmse": 1.5,
+        "mape": 4.6,
+        "accuracy_pct": 95.4,
+        "n": 1488
+      },
+      "combined_accuracy_pct": 74.96
+    },
+    "gem": {
+      "openmeteo_model_id": "gem_seamless",
+      "irradiance": {
+        "mae": 58.45,
+        "rmse": 116.68,
+        "mape": 36.76,
+        "accuracy_pct": 63.24,
+        "n": 1488
+      },
+      "temperature": {
+        "mae": 1.08,
+        "rmse": 1.45,
+        "mape": 3.89,
+        "accuracy_pct": 96.11,
+        "n": 1488
+      },
+      "combined_accuracy_pct": 73.1
+    },
+    "meteofrance": {
+      "openmeteo_model_id": "meteofrance_seamless",
+      "irradiance": {
+        "mae": 83.74,
+        "rmse": 159.32,
+        "mape": 46.79,
+        "accuracy_pct": 53.21,
+        "n": 1488
+      },
+      "temperature": {
+        "mae": 1.22,
+        "rmse": 1.61,
+        "mape": 4.31,
+        "accuracy_pct": 95.69,
+        "n": 1488
+      },
+      "combined_accuracy_pct": 65.95
+    },
+    "jma": {
+      "openmeteo_model_id": "jma_seamless",
+      "irradiance": {
+        "mae": null,
+        "rmse": null,
+        "mape": null,
+        "accuracy_pct": null,
+        "n": 0
+      },
+      "temperature": {
+        "mae": 1.5,
+        "rmse": 1.81,
+        "mape": 5.55,
+        "accuracy_pct": 94.45,
+        "n": 1488
+      },
+      "combined_accuracy_pct": null
+    },
+    "best_match": {
+      "openmeteo_model_id": "best_match",
+      "irradiance": {
+        "mae": 0.0,
+        "rmse": 0.0,
+        "mape": 0.0,
+        "accuracy_pct": 100.0,
+        "n": 1488
+      },
+      "temperature": {
+        "mae": 0.0,
+        "rmse": 0.0,
+        "mape": 0.0,
+        "accuracy_pct": 100.0,
+        "n": 1488
+      },
+      "combined_accuracy_pct": 100.0
+    }
+  },
+  "ranking": [
+    "best_match",
+    "ecmwf",
+    "icon",
+    "gem",
+    "gfs",
+    "meteofrance"
+  ],
+  "best_single_model": "best_match",
+  "baseline_model": "best_match",
+  "ensemble": {
+    "models_used": [
+      "best_match",
+      "ecmwf",
+      "icon"
+    ],
+    "irradiance": {
+      "mae": 22.36,
+      "rmse": 44.08,
+      "mape": 13.33,
+      "accuracy_pct": 86.67,
+      "n": 1488
+    }
+  },
+  "recommendation": "single",
+  "note": "'best_match' is included in ranking, best_single_model, and ensemble selection like the other models. For transparency: verified (2026-09-13) that Open-Meteo's Historical Forecast API returns identical values for best_match's 'past prediction' and the actual archive at this site, so its accuracy score here reflects that, not a genuine independent forecast."
+}

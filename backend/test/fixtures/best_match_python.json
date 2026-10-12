@@ -1,0 +1,194 @@
+{
+ "KOTHAGUDEM|2026-07-01|2026-08-31": {
+  "irr": {
+   "mae": 17.01,
+   "rmse": 42.31,
+   "mape": 11.82,
+   "accuracy_pct": 88.18,
+   "n": 97
+  },
+  "temp": {
+   "mae": 0.15,
+   "rmse": 0.35,
+   "mape": 0.52,
+   "accuracy_pct": 99.48,
+   "n": 97
+  }
+ },
+ "KOTHAGUDEM|2026-08-01|2026-10-03": {
+  "irr": {
+   "mae": 17.01,
+   "rmse": 42.31,
+   "mape": 11.82,
+   "accuracy_pct": 88.18,
+   "n": 97
+  },
+  "temp": {
+   "mae": 0.15,
+   "rmse": 0.35,
+   "mape": 0.52,
+   "accuracy_pct": 99.48,
+   "n": 97
+  }
+ },
+ "SIRMOUR|2026-07-01|2026-08-31": {
+  "irr": {
+   "mae": 22.34,
+   "rmse": 60.39,
+   "mape": 14.58,
+   "accuracy_pct": 85.42,
+   "n": 97
+  },
+  "temp": {
+   "mae": 0.23,
+   "rmse": 0.55,
+   "mape": 0.88,
+   "accuracy_pct": 99.12,
+   "n": 97
+  }
+ },
+ "SIRMOUR|2026-08-01|2026-10-03": {
+  "irr": {
+   "mae": 22.34,
+   "rmse": 60.39,
+   "mape": 14.58,
+   "accuracy_pct": 85.42,
+   "n": 97
+  },
+  "temp": {
+   "mae": 0.23,
+   "rmse": 0.55,
+   "mape": 0.88,
+   "accuracy_pct": 99.12,
+   "n": 97
+  }
+ },
+ "BHUPALPALLY|2026-07-01|2026-08-31": {
+  "irr": {
+   "mae": 21.61,
+   "rmse": 57.22,
+   "mape": 15.93,
+   "accuracy_pct": 84.07,
+   "n": 130
+  },
+  "temp": {
+   "mae": 0.15,
+   "rmse": 0.4,
+   "mape": 0.53,
+   "accuracy_pct": 99.47,
+   "n": 130
+  }
+ },
+ "BHUPALPALLY|2026-08-01|2026-10-03": {
+  "irr": {
+   "mae": 21.61,
+   "rmse": 57.22,
+   "mape": 15.93,
+   "accuracy_pct": 84.07,
+   "n": 130
+  },
+  "temp": {
+   "mae": 0.15,
+   "rmse": 0.4,
+   "mape": 0.53,
+   "accuracy_pct": 99.47,
+   "n": 130
+  }
+ },
+ "KASIPET|2026-07-01|2026-08-31": {
+  "irr": {
+   "mae": 14.8,
+   "rmse": 26.14,
+   "mape": 8.88,
+   "accuracy_pct": 91.12,
+   "n": 130
+  },
+  "temp": {
+   "mae": 0.15,
+   "rmse": 0.38,
+   "mape": 0.51,
+   "accuracy_pct": 99.49,
+   "n": 130
+  }
+ },
+ "KASIPET|2026-08-01|2026-10-03": {
+  "irr": {
+   "mae": 14.8,
+   "rmse": 26.14,
+   "mape": 8.88,
+   "accuracy_pct": 91.12,
+   "n": 130
+  },
+  "temp": {
+   "mae": 0.15,
+   "rmse": 0.38,
+   "mape": 0.51,
+   "accuracy_pct": 99.49,
+   "n": 130
+  }
+ },
+ "OSEPL|2026-07-01|2026-08-31": {
+  "irr": {
+   "mae": 13.49,
+   "rmse": 24.03,
+   "mape": 8.45,
+   "accuracy_pct": 91.55,
+   "n": 130
+  },
+  "temp": {
+   "mae": 0.21,
+   "rmse": 0.61,
+   "mape": 0.78,
+   "accuracy_pct": 99.22,
+   "n": 130
+  }
+ },
+ "OSEPL|2026-08-01|2026-10-03": {
+  "irr": {
+   "mae": 13.49,
+   "rmse": 24.03,
+   "mape": 8.45,
+   "accuracy_pct": 91.55,
+   "n": 130
+  },
+  "temp": {
+   "mae": 0.21,
+   "rmse": 0.61,
+   "mape": 0.78,
+   "accuracy_pct": 99.22,
+   "n": 130
+  }
+ },
+ "ANJANGAON|2026-07-01|2026-08-31": {
+  "irr": {
+   "mae": 24.88,
+   "rmse": 65.24,
+   "mape": 18.5,
+   "accuracy_pct": 81.5,
+   "n": 130
+  },
+  "temp": {
+   "mae": 0.19,
+   "rmse": 0.47,
+   "mape": 0.7,
+   "accuracy_pct": 99.3,
+   "n": 130
+  }
+ },
+ "ANJANGAON|2026-08-01|2026-10-03": {
+  "irr": {
+   "mae": 24.88,
+   "rmse": 65.24,
+   "mape": 18.5,
+   "accuracy_pct": 81.5,
+   "n": 130
+  },
+  "temp": {
+   "mae": 0.19,
+   "rmse": 0.47,
+   "mape": 0.7,
+   "accuracy_pct": 99.3,
+   "n": 130
+  }
+ }
+}

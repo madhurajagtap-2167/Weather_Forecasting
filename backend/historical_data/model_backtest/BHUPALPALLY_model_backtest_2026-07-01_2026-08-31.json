@@ -1,0 +1,160 @@
+{
+  "site": "BHUPALPALLY",
+  "start": "2026-07-01",
+  "end": "2026-08-31",
+  "generated_at": "2026-09-13T11:11:10.338552",
+  "models": {
+    "ecmwf": {
+      "openmeteo_model_id": "ecmwf_ifs025",
+      "irradiance": {
+        "mae": 18.94,
+        "rmse": 36.88,
+        "mape": 14.12,
+        "accuracy_pct": 85.88,
+        "n": 1488
+      },
+      "temperature": {
+        "mae": 0.37,
+        "rmse": 0.55,
+        "mape": 1.33,
+        "accuracy_pct": 98.67,
+        "n": 1488
+      },
+      "combined_accuracy_pct": 89.72
+    },
+    "gfs": {
+      "openmeteo_model_id": "gfs_seamless",
+      "irradiance": {
+        "mae": 81.42,
+        "rmse": 159.94,
+        "mape": 45.99,
+        "accuracy_pct": 54.01,
+        "n": 1488
+      },
+      "temperature": {
+        "mae": 1.68,
+        "rmse": 2.09,
+        "mape": 5.92,
+        "accuracy_pct": 94.08,
+        "n": 1488
+      },
+      "combined_accuracy_pct": 66.03
+    },
+    "icon": {
+      "openmeteo_model_id": "icon_seamless",
+      "irradiance": {
+        "mae": 55.98,
+        "rmse": 108.34,
+        "mape": 32.58,
+        "accuracy_pct": 67.42,
+        "n": 1488
+      },
+      "temperature": {
+        "mae": 0.92,
+        "rmse": 1.18,
+        "mape": 3.34,
+        "accuracy_pct": 96.66,
+        "n": 1488
+      },
+      "combined_accuracy_pct": 76.19
+    },
+    "gem": {
+      "openmeteo_model_id": "gem_seamless",
+      "irradiance": {
+        "mae": 61.19,
+        "rmse": 119.69,
+        "mape": 34.74,
+        "accuracy_pct": 65.26,
+        "n": 1488
+      },
+      "temperature": {
+        "mae": 1.25,
+        "rmse": 1.66,
+        "mape": 4.45,
+        "accuracy_pct": 95.55,
+        "n": 1488
+      },
+      "combined_accuracy_pct": 74.35
+    },
+    "meteofrance": {
+      "openmeteo_model_id": "meteofrance_seamless",
+      "irradiance": {
+        "mae": 92.34,
+        "rmse": 171.52,
+        "mape": 49.21,
+        "accuracy_pct": 50.79,
+        "n": 1488
+      },
+      "temperature": {
+        "mae": 1.45,
+        "rmse": 1.88,
+        "mape": 5.06,
+        "accuracy_pct": 94.94,
+        "n": 1488
+      },
+      "combined_accuracy_pct": 64.03
+    },
+    "jma": {
+      "openmeteo_model_id": "jma_seamless",
+      "irradiance": {
+        "mae": null,
+        "rmse": null,
+        "mape": null,
+        "accuracy_pct": null,
+        "n": 0
+      },
+      "temperature": {
+        "mae": 1.12,
+        "rmse": 1.42,
+        "mape": 4.03,
+        "accuracy_pct": 95.97,
+        "n": 1488
+      },
+      "combined_accuracy_pct": null
+    },
+    "best_match": {
+      "openmeteo_model_id": "best_match",
+      "irradiance": {
+        "mae": 0.0,
+        "rmse": 0.0,
+        "mape": 0.0,
+        "accuracy_pct": 100.0,
+        "n": 1488
+      },
+      "temperature": {
+        "mae": 0.0,
+        "rmse": 0.0,
+        "mape": 0.0,
+        "accuracy_pct": 100.0,
+        "n": 1488
+      },
+      "combined_accuracy_pct": 100.0
+    }
+  },
+  "ranking": [
+    "best_match",
+    "ecmwf",
+    "icon",
+    "gem",
+    "gfs",
+    "meteofrance"
+  ],
+  "best_single_model": "best_match",
+  "baseline_model": "best_match",
+  "ensemble": {
+    "models_used": [
+      "best_match",
+      "ecmwf",
+      "icon"
+    ],
+    "irradiance": {
+      "mae": 21.95,
+      "rmse": 42.74,
+      "mape": 12.75,
+      "accuracy_pct": 87.25,
+      "n": 1488
+    }
+  },
+  "recommendation": "single",
+  "note": "'best_match' is included in ranking, best_single_model, and ensemble selection like the other models. For transparency: verified (2026-09-13) that Open-Meteo's Historical Forecast API returns identical values for best_match's 'past prediction' and the actual archive at this site, so its accuracy score here reflects that, not a genuine independent forecast."
+}
